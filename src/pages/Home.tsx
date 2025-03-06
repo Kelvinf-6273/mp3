@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import {useParams} from "react-router-dom";
 import {useEffect} from "react";
+import me from "../public/ME.jpg";
 
 
 const MainHeader = styled.h3`
@@ -45,7 +46,7 @@ export default function Home(){
     return (
        <StyledMain>
            <MainHeader>Home</MainHeader>
-           <Image src={`../public/ME.jpg`}></Image>
+           <Image src={me}></Image>
            <MainWord> Hello! Welcome to my Website! You will find everything you will need to know about me.</MainWord>
            <MainWord>A Boston University senior and aspiring oncologist with a goal of working in and exploring the medical field.
                Hardworking, organized, and a strong desire to learn and improve skills.
