@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {useParams} from "react-router-dom";
 import {useEffect} from "react";
-import me from "../public/ME.jpg";
+import me from "../../public/ME.jpg";
 
 
 const MainHeader = styled.h3`
