@@ -18,7 +18,7 @@ const Container = styled.div`
     width: 100%;
     padding-right:  10px;
     flex-direction:row;
-    min-height: 210vh;
+    min-height: 160vh;
     background-color: #9450F2;
     box-sizing: border-box;
     padding-bottom: 0;
@@ -27,7 +27,7 @@ const Container = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 150vh;
+            height: 130vh;
     }
 
 `;
